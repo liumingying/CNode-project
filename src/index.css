@@ -1,0 +1,147 @@
+@import '~antd/dist/antd.css';
+*{
+    padding: 0;
+    margin: 0;
+}
+ul,li{
+    list-style: none;
+}
+body{
+    background-color: #ddd;
+}
+/* header */
+.headerwrap{
+    height: 50px;
+    background-color: #444;
+}
+.headerwrap header{
+    width: 1200px;
+    margin: 0 auto;
+}
+.headerwrap img{
+    margin-top: -10px;
+    width: 120px;
+}
+.headerwrap a{
+    margin: 0 20px;
+    color: #fff;
+}
+/* main */
+.main{
+    width: 1200px;
+    margin:  auto;
+    /* margin: 20px auto; */
+}
+.content{
+    margin: 20px auto;
+    width: 900px;
+    float: left;
+    /* border: 2px solid red; */
+}
+/* home */
+.blank{
+    line-height:50px;
+    background-color: #F6F6F6;
+}
+.blank a{
+    margin: 0 14px;
+    color: #80BD01;
+}
+.sider{
+    width: 290px;
+    height: 500px;
+    font-size: 14px;
+    float: right;
+}
+.panell{
+    padding-left: 10px;
+    text-align: left;
+    background-color: white;
+    margin-top: 20px;
+    color: black;
+}
+.panell button{
+    width: 150px;
+    height: 44px;
+    color: white;
+    background-color: #5bc0de;
+     /* // 去除未选中状态边框 */
+    border: 0; 
+    /* // 去除选中状态边 */
+    outline: none; 
+    border-radius: 3px;
+    padding-top: 10px;
+}
+.panell a{
+    color: white;
+}
+.panell img{
+    width:270px;
+    margin: 10px 0px;
+}
+.grey{
+    background-color: #f6f6f6;
+    height: 40px;
+    padding-top: 10px;
+    font-size: 13px;
+}
+.characters{
+    color: #778087;
+    font-size:13px;
+    line-height: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.characters img{
+    width: 150px;
+}
+.characters2 img{
+    width: 200px;
+}
+.characters2{
+    color:#778087;
+    text-align: center;
+}
+.header{
+    width:900px;
+    height: 40px;
+    font-size: 14px;
+    padding: 10px;
+    background-color:  #f6f6f6;
+}
+.denglu{
+    width:900px;
+    height:260px;
+    background-color:white;
+    font-size: 14px;
+    padding-left: 130px;
+    padding-top: 50px;
+}
+.denglu input {
+    margin-top: 20px;
+}
+.denglu button{
+    width: 52px;
+    height: 34px;
+    margin-top: 30px;
+    margin-left: 80px;
+    background-color: #5bc0de;
+     /* // 去除未选中状态边框 */
+    border: 0; 
+    /* // 去除选中状态边 */
+    outline: none; 
+    border-radius: 3px;
+    color:white;
+}
+/* api */
+/* .inner topic{
+    width: 900px;
+    background-color: white;
+} */
+.markdown-text{
+    margin-top: 10px;
+    /* margin-left: 10px; */
+    margin-bottom: 20px;
+    width: 900px;
+    background-color: white;
+}
